@@ -1,5 +1,6 @@
 
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -7,46 +8,48 @@
     <title>LUM Boutique | Blockchain Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;600&display=swap');
-        body { background-color: #0a0a0a; color: #fff; font-family: 'Montserrat', sans-serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@300;500&display=swap');
+        
+        /* Nuovo Colore di Sfondo: Warm Taupe */
+        body { background-color: #8b7365; color: #fff; font-family: 'Montserrat', sans-serif; }
+        
         .luxury-font { font-family: 'Playfair Display', serif; }
-        .product-card { background: #111; border: 1px solid #222; transition: 0.3s; }
-        .product-card:hover { border-color: #d4af37; transform: translateY(-5px); }
+        
+        /* Card in Bianco Avorio */
+        .product-card { 
+            background: #ffffff; 
+            color: #4a372d; 
+            transition: 0.3s; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .product-card:hover { transform: translateY(-8px); }
+        
+        .btn-buy {
+            background-color: #8b7365;
+            color: white;
+            transition: 0.3s;
+        }
+        .btn-buy:hover { background-color: #6d5a4f; }
     </style>
 </head>
-<body class="py-12 px-6">
-    <header class="text-center mb-16">
-        <h1 class="luxury-font text-6xl text-[#d4af37] mb-2">LUM BOUTIQUE</h1>
-        <p class="text-[10px] tracking-[0.4em] uppercase text-gray-500">Official Stellar Testnet Shop</p>
+<body class="py-16 px-6">
+    
+    <header class="text-center mb-20">
+        <h1 class="luxury-font text-6xl text-[#f3d1c1] mb-2 tracking-tight">LUM BOUTIQUE</h1>
+        <p class="text-[11px] tracking-[0.5em] uppercase text-white/80 font-light">Official Stellar Testnet Shop</p>
     </header>
 
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="product-card p-6 rounded-3xl text-center">
-            <img src="assets/scarpa.jpg" alt="Scarpa" class="w-full h-56 object-cover rounded-2xl mb-4">
-            <h2 class="text-xl font-bold mb-1 uppercase">Scarpa + Camicia</h2>
-            <p class="text-2xl font-light text-yellow-500 mb-6">24 EURC</p>
-            <button class="w-full py-3 bg-white text-black text-xs font-bold rounded-xl hover:bg-yellow-500 transition">VENDI / ACQUISTA</button>
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <div class="product-card p-5 rounded-[2rem] text-center flex flex-col">
+            <img src="assets/scarpa.jpg" class="w-full h-52 object-cover rounded-2xl mb-5">
+            <h2 class="text-sm font-semibold mb-1 uppercase tracking-tighter">Scarpa + Camicia</h2>
+            <p class="text-xs text-gray-500 mb-4 font-light">Asset: SCARPA</p>
+            <p class="text-2xl font-medium mb-6 mt-auto">24 EURC</p>
+            <button class="btn-buy w-full py-3 text-[10px] font-bold rounded-xl uppercase tracking-widest">Vendi / Acquista</button>
         </div>
 
-        <div class="product-card p-6 rounded-3xl text-center">
-            <img src="assets/maglione.jpg" alt="Maglione" class="w-full h-56 object-cover rounded-2xl mb-4">
-            <h2 class="text-xl font-bold mb-1 uppercase">Maglione G. Collo</h2>
-            <p class="text-2xl font-light text-yellow-500 mb-6">19.9 EURC</p>
-            <button class="w-full py-3 bg-white text-black text-xs font-bold rounded-xl hover:bg-yellow-500 transition">VENDI / ACQUISTA</button>
-        </div>
-
-        <div class="product-card p-6 rounded-3xl text-center">
-            <img src="assets/giacca.jpg" alt="Giacca" class="w-full h-56 object-cover rounded-2xl mb-4">
-            <h2 class="text-xl font-bold mb-1 uppercase">Giacca Elegante</h2>
-            <p class="text-2xl font-light text-yellow-500 mb-6">88 EURC</p>
-            <button class="w-full py-3 bg-white text-black text-xs font-bold rounded-xl hover:bg-yellow-500 transition">VENDI / ACQUISTA</button>
-        </div>
-    </div>
-
-    <footer class="mt-20 text-center border-t border-white/5 pt-10">
-        <p class="text-[9px] text-gray-600 mb-2">ISSUER: GBB27IQBEUV4ID5HSGTQQIA4G4GCJMBEQBVVDC2ANTWVDGI6KI3QKVY</p>
-        <p class="text-[10px] text-green-500 font-bold uppercase tracking-widest">Stellar Test Network Active</p>
-    </footer>
-</body>
-</html>
+        <div class="product-card p-5 rounded-[2rem] text-center flex flex-col">
+            <img src="assets/maglione.jpg" class="w-full h-52 object-cover rounded-2xl mb-5">
+            <h2 class="
    
