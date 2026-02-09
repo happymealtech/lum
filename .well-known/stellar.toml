@@ -1,57 +1,38 @@
-# Configurazione Stellar per la Boutique "LUM" (Testnet)
-# Location: https://happymealtech.github.io/lum/.well-known/stellar.toml
-
 NETWORK_PASSPHRASE="Test SDF Network ; September 2015"
 
 [DOCUMENTATION]
 ORG_NAME="LUM Boutique"
 ORG_URL="https://happymealtech.github.io/lum"
-ORG_DESCRIPTION="Negozio di abbigliamento su blockchain Stellar. Qualità e trasparenza decentralizzata."
+ORG_DESCRIPTION="Negozio di abbigliamento su blockchain Stellar. Qualità e trasparenza."
 
 [[CURRENCIES]]
 code="SCARPA"
-issuer="GBB27IQBEUV4ID5HSGTQQIA4G4GCJBMBEQBVVDC2ANTWVDGI6KI3QKVY"
+issuer="GBB27IQBEUV4ID5HSGTQQIA4G4GCJMBEQBVVDC2ANTWVDGI6KI3QKVY"
 display_decimals=0
 name="Scarpa + Camicia"
 desc="Set coordinato scarpa e camicia (200 unità disponibili)"
 image="https://happymealtech.github.io/lum/assets/scarpa.jpg"
 
 [[CURRENCIES]]
-code="MAGLIA"
-issuer="GBB27IQBEUV4ID5HSGTQQIA4G4GCJBMBEQBVVDC2ANTWVDGI6KI3QKVY"
+code="MAGLIONE"
+issuer="GBB27IQBEUV4ID5HSGTQQIA4G4GCJMBEQBVVDC2ANTWVDGI6KI3QKVY"
 display_decimals=0
-name="Maglia G. Collo Rosa"
-desc="Maglia rosa (83 unità disponibili)"
-image="https://happymealtech.github.io/lum/assets/maglia.jpg"
-
-[[CURRENCIES]]
-code="JEANS"
-issuer="GBB27IQBEUV4ID5HSGTQQIA4G4GCJBMBEQBVVDC2ANTWVDGI6KI3QKVY"
-display_decimals=0
-name="Jeans LEVIS"
-desc="Jeans di marca Levis (60 unità disponibili)"
-image="https://happymealtech.github.io/lum/assets/jeans.jpg"
-
-[[CURRENCIES]]
-code="FELPA"
-issuer="GBB27IQBEUV4ID5HSGTQQIA4G4GCJBMBEQBVVDC2ANTWVDGI6KI3QKVY"
-display_decimals=0
-name="Felpa Gialla"
-desc="Felpa sportiva gialla (43 unità disponibili)"
-image="https://happymealtech.github.io/lum/assets/felpa.jpg"
+name="Maglione G. Collo Rosa"
+desc="Maglia rosa alta qualità (83 unità disponibili)"
+image="https://happymealtech.github.io/lum/assets/maglione.jpg"
 
 [[CURRENCIES]]
 code="GIACCA"
-issuer="GBB27IQBEUV4ID5HSGTQQIA4G4GCJBMBEQBVVDC2ANTWVDGI6KI3QKVY"
+issuer="GBB27IQBEUV4ID5HSGTQQIA4G4GCJMBEQBVVDC2ANTWVDGI6KI3QKVY"
 display_decimals=0
-name="Giacca"
-desc="Giacca elegante (19 unità disponibili)"
+name="Giacca Elegante"
+desc="Taglio sartoriale (19 unità disponibili)"
 image="https://happymealtech.github.io/lum/assets/giacca.jpg"
 
 [[CURRENCIES]]
-code="CAPPELLO"
-issuer="GBB27IQBEUV4ID5HSGTQQIA4G4GCJBMBEQBVVDC2ANTWVDGI6KI3QKVY"
+code="OROLOGIO"
+issuer="GBB27IQBEUV4ID5HSGTQQIA4G4GCJMBEQBVVDC2ANTWVDGI6KI3QKVY"
 display_decimals=0
-name="Cappello + Occhiali"
-desc="Set accessori (12 unità disponibili)"
-image="https://happymealtech.
+name="Orologio Luxury"
+desc="Edizione limitata (10 unità disponibili)"
+image="https://happymealtech.github.io/lum/assets/orologio.jpg"
