@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curatori1 | Luxury Hair Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    
+    <style>
+        :root { --oro: #b38e5d; --nero: #1a1a1a; --bianco: #fdfdfd; }
+        body { font-family: 'Playfair Display', serif; background-color: var(--bianco); color: var(--nero); margin: 0; line-height: 1.6; }
+
+        /* Menu */
+        nav { padding: 40px; text-align: center; letter-spacing: 4px; text-transform: uppercase; font-size: 0.7rem; border-bottom: 1px solid #eee; }
+        nav a { text-decoration: none; color: var(--nero); margin: 0 20px; }
+
+        /* Hero - Rimane la PRIMA FOTO (quella iniziale di Unsplash) */
+        .hero {
+            height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center;
+            background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=80') center/cover;
+            text-align: center;
+        }
+        h1 { font-size: 5rem; margin: 0; font-weight: 400; letter-spacing: -2px; }
+        .subtitle { font-family: 'Inter', sans-serif; font-size: 0.9rem; letter-spacing: 5px; text-transform: uppercase; color: var(--oro); }
+
+        /* Storia - Qui usiamo la tua foto donne.jpeg */
+        .about-section { display: flex; align-items: center; padding: 100px 10%; gap: 80px; flex-wrap: wrap; }
+        .about-text { flex: 1; min-width: 300px; }
+        .about-image { 
+            flex: 1; min-width: 300px; height: 500px; 
+            background: url('donne.jpeg') center/cover; 
+            border: 1px solid #eee; 
+        }
+
+        /* Vetrina Prodotti - Con le tue foto purif, rebalan e sali */
+        .products-home { padding: 80px 10%; text-align: center; background-color: #fff; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-top: 50px; }
+        .product-item img { width: 100%; height: 350px; object-fit: cover; border: 1px solid #eee; }
+        .price { font-family: 'Inter', sans-serif; color: var(--oro); font-weight: bold; margin-top: 10px; }
+
+        footer { padding: 60px; text-align: center; font-size: 0.7rem; color: #999; border-top: 1px solid #eee; letter-spacing: 2px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Collezioni</a>
+        <a href="servizi.html">I Trattamenti</a>
+        <a href="#">L'Identità</a>
+    </nav>
+
+    <section class="hero">
+        <p class="subtitle">Curatori1 Studio</p>
+        <h1>Once, Forever</h1>
+    </section>
+
+    <section class="about-section">
+        <div class="about-text">
+            <p class="subtitle">L'Essenza</p>
+            <h2 style="font-size: 3rem; font-weight: 400;">La Storia</h2>
+            <p>A Curatori1, l'arte della bellezza è una tradizione reinventata. Ogni taglio è un'architettura, ogni colore un'emozione "Once, Forever".</p>
+        </div>
+        <div class="about-image"></div>
+    </section>
+
+    <section class="products-home">
+        <h2 style="font-size: 2.5rem; font-weight: 400;">La Selezione</h2>
+        <div class="products-grid">
+            <div class="product-item">
+                <img src="purif.jpeg" alt="Purifying">
+                <h3>Purifying Blend</h3>
+                <p class="price">€ 42.00</p>
+            </div>
+            <div class="product-item">
+                <img src="rebalan.jpeg" alt="Rebalancing">
+                <h3>Rebalancing Treatment</h3>
+                <p class="price">€ 38.00</p>
+            </div>
+            <div class="product-item">
+                <img src="sali.jpeg" alt="Sali">
+                <h3>Sali Essenziali</h3>
+                <p class="price">€ 45.00</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        GD22GBKOUYWC3C2QDZPMT27GBD2L6STAPXN2QEZB3HX4GNISW3P7XSQK | CURATORI1 © 2026
+    </footer>
+
+</body>
+</html>
